@@ -1,19 +1,25 @@
 {
   "name": "combine-classes",
   "version": "1.0.0",
-  "description": "a helper method for combining css classes and making conditional class logic easier to implement",
-  "main": "index.js",
+  "description": "a helper for combining css classes and making conditional class logic easier to implement",
+  "main": "lib/index.js",
+  "types": "lib",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BrooklinJazz/combine-classes.git"
   },
-  "author": "Brooklin Jazz Myers",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BrooklinJazz/combine-classes/issues"
   },
-  "homepage": "https://github.com/BrooklinJazz/combine-classes#readme"
+  "homepage": "https://github.com/BrooklinJazz/combine-classes#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
 }
