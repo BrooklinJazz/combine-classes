@@ -1,6 +1,6 @@
 {
   "name": "combine-classes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a helper for combining css classes and making conditional class logic easier to implement",
   "main": "lib/index.js",
   "types": "lib",
